@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class Problem01 {
-    // Turtle's State
+
     static int turtleX, turtleY;
     static int turtleDX, turtleDY;
     static boolean turtlePenDown;
 
-    // Turtle's Services/ Behaviors
+
     static void constructTurtle() {
         turtleX = turtleY = 0;
         turtleDX = 1;
@@ -51,7 +51,7 @@ public class Problem01 {
     static final int FIELD_HEIGHT = 20;
     static char[][] field;
 
-    // Field's Services/Behaviors
+
 
     static void constructField() {
         field = new char[FIELD_HEIGHT][FIELD_WIDTH];
