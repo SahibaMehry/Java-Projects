@@ -131,7 +131,7 @@ public class Problem01 {
                     System.exit(0);
                     break;
                 default:
-                    System.err.println("Error: Invalid input");
+                       System.err.println("Error: Invalid input");
                     break;
             }
 
