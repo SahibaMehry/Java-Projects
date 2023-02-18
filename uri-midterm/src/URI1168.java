@@ -19,6 +19,7 @@ public class URI1168 {
                 if(s.charAt(c) == '4')
                     led +=4;
                 if(s.charAt(c) == '6' || s.charAt(c) == '9' || s.charAt(c) == '0')
+
                     led +=6;
                 if(s.charAt(c) == '7')
                     led +=3;

@@ -14,6 +14,7 @@ public static void main(String[] args) {
         StringBuilder M = new StringBuilder(readLine(reader));
 
 
+
         for (int j = 0; j < M.length(); j++) {
         int code = M.charAt(j);
         if ((code >= 65 && code <= 90) || (code >= 97 && code <= 122)) {

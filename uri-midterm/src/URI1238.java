@@ -18,6 +18,7 @@ public class URI1238 {
 
             for (int z=0 ; z<(fr1.length+fr2.length) ; z++) {
                 if (z<fr1.length)
+
                     sale+=fr1[z];
                 if (z<fr2.length)
                     sale+=fr2[z];
