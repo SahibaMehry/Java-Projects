@@ -78,6 +78,7 @@ public class ArrayListInt {
         --size;
     }
 
+
     public String toString() {
         StringBuilder res = new StringBuilder("[");
         for (int i = 0; i < size(); ++i) {
