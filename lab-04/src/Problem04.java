@@ -36,6 +36,7 @@ public class Problem04 {
             }
             long endTime = System.nanoTime();
             long elapsedTime = endTime - startTime;
+
             System.out.printf("%.5f%n", elapsedTime / 1_000_000_000.0);
         }
     }
