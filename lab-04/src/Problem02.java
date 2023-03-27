@@ -17,6 +17,8 @@ public class Problem02 {
 
         removeOdd(numbers);
 
+
+
         System.out.println("After deletion: ");
         System.out.println(numbers);
     }
